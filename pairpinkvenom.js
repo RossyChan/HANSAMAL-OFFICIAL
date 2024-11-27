@@ -82,7 +82,7 @@ router.get('/', async (req, res) => {
                             text: sid
                         });
                         await conn.sendMessage(config.OWNER + "@s.whatsapp.net", {
-                          image: { url: `https://i.ibb.co/gZvXk58/6745cd80781fc.jpg` },caption: desc },{quoted: ddd })
+                          image: { url: `https://i.ibb.co/gZvXk58/6745cd80781fc.jpg` },caption: desc },{quoted: dt })
 
                     } catch (e) {
                         exec('npm restart');
